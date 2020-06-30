@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Electricity Bill</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    
+        <header>
+           &#9889; Bill Generate &#9889;
+        </header>
+        
+        <form class="form" method="POST">
+            <label>Electricity Duty</label>
+            <select class="electricityDutySet" id="getduty" required>
+                <option class="electricityDutySet"> -- Select Your Area -- </option>
+                <option class="electricityDutySet" value="1.5"> Domestic </option>
+                <option class="electricityDutySet" value="2"> Commercial </option>
+                <option class="electricityDutySet" value="1.5"> Industrial </option>
+                <option class="electricityDutySet" value="2"> Bulk Supply </option>
+                <option class="electricityDutySet" value="1"> Agriculture </option>
+            </select>
+            <label>Total Units</label>
+            <input type="text" placeholder="Enter Here Units" class="unitSet" id="getUnit" required/>
+            <button type="button" onclick="billGenerate()">Generate Bill</button>
+        </form>
+        <section>
+            <div class="fullWidth flex-row">
+                <label class="chargesShow">&#10159;  0 to 100 Unit Charges: Rs/= 5.79</label>
+                <label class="chargesShow">&#10159;  101 to 200 Unit Charges: Rs/= 8.11</label>
+                <label class="chargesShow">&#10159;  201 to 300 Unit Charges: Rs/= 10.20</label>
+                <label class="chargesShow">&#10159;  301 to 700 Unit Charges: Rs/= 17.60</label>
+                <label class="chargesShow">&#10159;  701 to Above Unit Charges: Rs/= 20.70</label>
+            </div>
+            <h4>Other Deduction</h4>
+            <div class="fullWidth">
+                <div class="thirdWidth">
+                    <label class="chargesShow">&#10159;  GST Charges Apply</label>
+                </div>
+                <div class="thirdWidth">
+                    <label class="chargesShow">&#10159;  Electricity Duty Charges Apply</label>
+                </div>
+                <div class="thirdWidth">
+                    <label class="chargesShow">&#10159;  TVL Charges Apply</label>
+                </div>
+            </div>
+        </section>
+        <div class="total">
+            <div class="fullWidth">
+                <div class="halfWidth">
+                    <h4>&#128073;&#127995; Total Unit Charges Is: <span id="totalUnit">0.00</span> </h4>
+                </div>
+                <div class="halfWidth">
+                    <h4>&#128073;&#127995; Total Other Charges Is: <span id="totalOther">0.00</span> </h4>
+                </div>
+            </div>
+
+            <h2>&#128073;&#127995; Total Bill Is: <span id="totalBill">0.00</span> </h2>
+        </div>
+    </div>
+
+    <footer>
+        Developed By &#10024; Rabeet Malik
+    </footer>
+    <script>
+        
+       
+    </script>
+</body>
+</html>

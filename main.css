@@ -1,0 +1,122 @@
+body{
+    background: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    color: #545454;
+}
+header{
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 0;
+    text-transform: uppercase;
+    text-shadow: 1px 1px #cecccc, 2px 2px #f9fcff, 3px 3px #cecccc, 4px 4px #000000, 5px 5px #f9fcff, 6px 6px #f5f5f5;
+    letter-spacing: 3px;
+}
+.form {
+    padding: 30px;
+    background: #394956;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    width: 60vw;
+    margin: auto;
+}
+label{
+    color: #fff;
+    padding: 5px 0;
+    font-size: 14px;
+}
+.unitSet, .electricityDutySet{
+    padding: 10px 5px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+.unitSet:focus ,
+.unitSet:active{
+    padding: 10px 5px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+.fullWidth{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-flow: row;
+    justify-content: space-between;
+}
+.halfWidth{
+    /* width: 50%; */
+}
+.quarterWidth{
+    /* width: 25%; */
+}
+.thirdWidth{
+    /* width: 33.33%; */
+    padding: 10px;
+    background: #f5f5f5;
+    border-bottom: 3px solid #d7d5dc;
+    border-radius: 7px 0;
+    margin: 0 5px;
+    box-shadow: -3px -3px #39495691;
+}
+section{
+    padding: 30px;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    width: 60vw;
+    margin: auto;
+}
+.chargesShow{
+    color: #407c98;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    font-size: 12px;
+}
+.flex-row{
+flex-direction: column;
+}
+
+button , button:active , button:focus{
+    background: #fff;
+    border: none;
+    margin-top: 15px;
+    padding: 10px;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    font-weight: 600;
+    border-radius: 2px;
+    color: #394956;
+}
+.total {
+    padding: 10px 30px;
+    background: #394956;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 0 0 5px 5px;
+    width: 60vw;
+    margin: auto;
+    color: #fff;
+    text-align: center;
+}
+footer{
+    padding: 12px;
+    margin: 20px 0 0 0;
+    background: #1b1a1a;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 14px;
+}
