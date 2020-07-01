@@ -36,7 +36,7 @@ function billGenerate() {
                 var setTotalAmount = document.getElementById('totalUnit').innerHTML = totalUnitCharges;
                 var setTotalAmount = document.getElementById('totalOther').innerHTML = withGST + domesticTVL + withDomesticCharges;
                 var setTotalAmount = document.getElementById('totalBill').innerHTML = (totalUnitCharges + withGST + domesticTVL + withDomesticCharges).toFixed(2);
-                // alert(totalUnitCharges + withGST + domesticTVL + withDomesticCharges);
+                // alert((totalUnitCharges + withGST + domesticTVL + withDomesticCharges).toFixed(2));
             }
 
             else if((getUnit <= 200) && (getUnit > 101)){
@@ -49,8 +49,8 @@ function billGenerate() {
                 console.log("Domestic TVL" , domesticTVL)
                 var setTotalAmount = document.getElementById('totalUnit').innerHTML = totalUnitCharges;
                 var setTotalAmount = document.getElementById('totalOther').innerHTML = withGST + domesticTVL + withDomesticCharges;
-                var setTotalAmount = document.getElementById('totalBill').innerHTML = totalUnitCharges + withGST + domesticTVL + withDomesticCharges;
-                // alert(totalUnitCharges + withGST + domesticTVL + withDomesticCharges);
+                var setTotalAmount = document.getElementById('totalBill').innerHTML = (totalUnitCharges + withGST + domesticTVL + withDomesticCharges).toFixed(2);
+                // alert((totalUnitCharges + withGST + domesticTVL + withDomesticCharges).toFixed(2));
             }
 
             else if((getUnit <= 300) && (getUnit > 201)){
@@ -63,8 +63,8 @@ function billGenerate() {
                 console.log("Domestic TVL" , domesticTVL)
                 var setTotalAmount = document.getElementById('totalUnit').innerHTML = totalUnitCharges;
                 var setTotalAmount = document.getElementById('totalOther').innerHTML = withGST + domesticTVL + withDomesticCharges;
-                var setTotalAmount = document.getElementById('totalBill').innerHTML = totalUnitCharges + withGST + domesticTVL + withDomesticCharges;
-                // alert(totalUnitCharges + withGST + domesticTVL + withDomesticCharges);
+                var setTotalAmount = document.getElementById('totalBill').innerHTML = (totalUnitCharges + withGST + domesticTVL + withDomesticCharges).toFixed(2);
+                // alert((totalUnitCharges + withGST + domesticTVL + withDomesticCharges).toFixed(2));
             }
 
             else if((getUnit <= 700) && (getUnit > 301)){
@@ -77,8 +77,8 @@ function billGenerate() {
                 console.log("Domestic TVL" , domesticTVL)
                 var setTotalAmount = document.getElementById('totalUnit').innerHTML = totalUnitCharges;
                 var setTotalAmount = document.getElementById('totalOther').innerHTML = withGST + domesticTVL + withDomesticCharges;
-                var setTotalAmount = document.getElementById('totalBill').innerHTML = totalUnitCharges + withGST + domesticTVL + withDomesticCharges;
-                // alert(totalUnitCharges + withGST + domesticTVL + withDomesticCharges);
+                var setTotalAmount = document.getElementById('totalBill').innerHTML = (totalUnitCharges + withGST + domesticTVL + withDomesticCharges).toFixed(2);
+                // alert((totalUnitCharges + withGST + domesticTVL + withDomesticCharges).toFixed(2));
             }
 
             else{
@@ -91,8 +91,8 @@ function billGenerate() {
                 console.log("Domestic TVL" , domesticTVL)
                 var setTotalAmount = document.getElementById('totalUnit').innerHTML = totalUnitCharges;
                 var setTotalAmount = document.getElementById('totalOther').innerHTML = withGST + domesticTVL + withDomesticCharges;
-                var setTotalAmount = document.getElementById('totalBill').innerHTML = totalUnitCharges + withGST + domesticTVL + withDomesticCharges;
-                // alert(totalUnitCharges + withGST + domesticTVL + withDomesticCharges);
+                var setTotalAmount = document.getElementById('totalBill').innerHTML = (totalUnitCharges + withGST + domesticTVL + withDomesticCharges).toFixed(2);
+                // alert((totalUnitCharges + withGST + domesticTVL + withDomesticCharges).toFixed(2));
             } 
         }
 
@@ -122,8 +122,8 @@ function billGenerate() {
                 console.log("Domestic TVL" , domesticTVL)
                 var setTotalAmount = document.getElementById('totalUnit').innerHTML = totalUnitCharges;
                 var setTotalAmount = document.getElementById('totalOther').innerHTML = withGST + domesticTVL + withcommercialCharges;
-                var setTotalAmount = document.getElementById('totalBill').innerHTML = totalUnitCharges + withGST + domesticTVL + withcommercialCharges;
-                // alert(totalUnitCharges + withGST + domesticTVL + withcommercialCharges);
+                var setTotalAmount = document.getElementById('totalBill').innerHTML = (totalUnitCharges + withGST + domesticTVL + withcommercialCharges).toFixed(2);
+                // alert((totalUnitCharges + withGST + domesticTVL + withcommercialCharges).toFixed(2));
             }
 
             else if((getUnit <= 300) && (getUnit > 201)){
@@ -136,8 +136,8 @@ function billGenerate() {
                 console.log("Domestic TVL" , domesticTVL)
                 var setTotalAmount = document.getElementById('totalUnit').innerHTML = totalUnitCharges;
                 var setTotalAmount = document.getElementById('totalOther').innerHTML = withGST + domesticTVL + withcommercialCharges;
-                var setTotalAmount = document.getElementById('totalBill').innerHTML = totalUnitCharges + withGST + domesticTVL + withcommercialCharges;
-                // alert(totalUnitCharges + withGST + domesticTVL + withcommercialCharges);
+                var setTotalAmount = document.getElementById('totalBill').innerHTML = (totalUnitCharges + withGST + domesticTVL + withcommercialCharges).toFixed(2);
+                // alert((totalUnitCharges + withGST + domesticTVL + withcommercialCharges).toFixed(2));
             }
 
             else if((getUnit <= 700) && (getUnit > 301)){
@@ -150,8 +150,8 @@ function billGenerate() {
                 console.log("Domestic TVL" , domesticTVL)
                 var setTotalAmount = document.getElementById('totalUnit').innerHTML = totalUnitCharges;
                 var setTotalAmount = document.getElementById('totalOther').innerHTML = withGST + domesticTVL + withcommercialCharges;
-                var setTotalAmount = document.getElementById('totalBill').innerHTML = totalUnitCharges + withGST + domesticTVL + withcommercialCharges;
-                // alert(totalUnitCharges + withGST + domesticTVL + withcommercialCharges);
+                var setTotalAmount = document.getElementById('totalBill').innerHTML = (totalUnitCharges + withGST + domesticTVL + withcommercialCharges).toFixed(2);
+                // alert((totalUnitCharges + withGST + domesticTVL + withcommercialCharges).toFixed(2));
             }
 
             else{
@@ -164,8 +164,8 @@ function billGenerate() {
                 console.log("Domestic TVL" , domesticTVL)
                 var setTotalAmount = document.getElementById('totalUnit').innerHTML = totalUnitCharges;
                 var setTotalAmount = document.getElementById('totalOther').innerHTML = withGST + domesticTVL + withcommercialCharges;
-                var setTotalAmount = document.getElementById('totalBill').innerHTML = totalUnitCharges + withGST + domesticTVL + withcommercialCharges;
-                // alert(totalUnitCharges + withGST + domesticTVL + withcommercialCharges);
+                var setTotalAmount = document.getElementById('totalBill').innerHTML = (totalUnitCharges + withGST + domesticTVL + withcommercialCharges).toFixed(2);
+                // alert((totalUnitCharges + withGST + domesticTVL + withcommercialCharges).toFixed(2));
             } 
         }
         
@@ -195,8 +195,8 @@ function billGenerate() {
                 console.log("Domestic TVL" , domesticTVL)
                 var setTotalAmount = document.getElementById('totalUnit').innerHTML = totalUnitCharges;
                 var setTotalAmount = document.getElementById('totalOther').innerHTML = withGST + domesticTVL + withindustrialCharges;
-                var setTotalAmount = document.getElementById('totalBill').innerHTML = totalUnitCharges + withGST + domesticTVL + withindustrialCharges;
-                // alert(totalUnitCharges + withGST + domesticTVL + withindustrialCharges);
+                var setTotalAmount = document.getElementById('totalBill').innerHTML = (totalUnitCharges + withGST + domesticTVL + withindustrialCharges).toFixed(2);
+                // alert((totalUnitCharges + withGST + domesticTVL + withindustrialCharges).toFixed(2));
             }
 
             else if((getUnit <= 300) && (getUnit > 201)){
@@ -209,8 +209,8 @@ function billGenerate() {
                 console.log("Domestic TVL" , domesticTVL)
                 var setTotalAmount = document.getElementById('totalUnit').innerHTML = totalUnitCharges;
                 var setTotalAmount = document.getElementById('totalOther').innerHTML = withGST + domesticTVL + withindustrialCharges;
-                var setTotalAmount = document.getElementById('totalBill').innerHTML = totalUnitCharges + withGST + domesticTVL + withindustrialCharges;
-                // alert(totalUnitCharges + withGST + domesticTVL + withindustrialCharges);
+                var setTotalAmount = document.getElementById('totalBill').innerHTML = (totalUnitCharges + withGST + domesticTVL + withindustrialCharges).toFixed(2);
+                // alert((totalUnitCharges + withGST + domesticTVL + withindustrialCharges).toFixed(2));
             }
 
             else if((getUnit <= 700) && (getUnit > 301)){
@@ -223,8 +223,8 @@ function billGenerate() {
                 console.log("Domestic TVL" , domesticTVL)
                 var setTotalAmount = document.getElementById('totalUnit').innerHTML = totalUnitCharges;
                 var setTotalAmount = document.getElementById('totalOther').innerHTML = withGST + domesticTVL + withindustrialCharges;
-                var setTotalAmount = document.getElementById('totalBill').innerHTML = totalUnitCharges + withGST + domesticTVL + withindustrialCharges;
-                // alert(totalUnitCharges + withGST + domesticTVL + withindustrialCharges);
+                var setTotalAmount = document.getElementById('totalBill').innerHTML = (totalUnitCharges + withGST + domesticTVL + withindustrialCharges).toFixed(2);
+                // alert((totalUnitCharges + withGST + domesticTVL + withindustrialCharges).toFixed(2));
             }
 
             else{
@@ -237,8 +237,8 @@ function billGenerate() {
                 console.log("Domestic TVL" , domesticTVL)
                 var setTotalAmount = document.getElementById('totalUnit').innerHTML = totalUnitCharges;
                 var setTotalAmount = document.getElementById('totalOther').innerHTML = withGST + domesticTVL + withindustrialCharges;
-                var setTotalAmount = document.getElementById('totalBill').innerHTML = totalUnitCharges + withGST + domesticTVL + withindustrialCharges;
-                // alert(totalUnitCharges + withGST + domesticTVL + withindustrialCharges);
+                var setTotalAmount = document.getElementById('totalBill').innerHTML = (totalUnitCharges + withGST + domesticTVL + withindustrialCharges).toFixed(2);
+                // alert((totalUnitCharges + withGST + domesticTVL + withindustrialCharges).toFixed(2));
             } 
         }
 
@@ -268,8 +268,8 @@ function billGenerate() {
                 console.log("Domestic TVL" , domesticTVL)
                 var setTotalAmount = document.getElementById('totalUnit').innerHTML = totalUnitCharges;
                 var setTotalAmount = document.getElementById('totalOther').innerHTML = withGST + domesticTVL + withbulkCharges;
-                var setTotalAmount = document.getElementById('totalBill').innerHTML = totalUnitCharges + withGST + domesticTVL + withbulkCharges;
-                // alert(totalUnitCharges + withGST + domesticTVL + withbulkCharges);
+                var setTotalAmount = document.getElementById('totalBill').innerHTML = (totalUnitCharges + withGST + domesticTVL + withbulkCharges).toFixed(2);
+                // alert((totalUnitCharges + withGST + domesticTVL + withbulkCharges).toFixed(2));
             }
 
             else if((getUnit <= 300) && (getUnit > 201)){
@@ -282,8 +282,8 @@ function billGenerate() {
                 console.log("Domestic TVL" , domesticTVL)
                 var setTotalAmount = document.getElementById('totalUnit').innerHTML = totalUnitCharges;
                 var setTotalAmount = document.getElementById('totalOther').innerHTML = withGST + domesticTVL + withbulkCharges;
-                var setTotalAmount = document.getElementById('totalBill').innerHTML = totalUnitCharges + withGST + domesticTVL + withbulkCharges;
-                // alert(totalUnitCharges + withGST + domesticTVL + withbulkCharges);
+                var setTotalAmount = document.getElementById('totalBill').innerHTML = (totalUnitCharges + withGST + domesticTVL + withbulkCharges).toFixed(2);
+                // alert((totalUnitCharges + withGST + domesticTVL + withbulkCharges).toFixed(2));
             }
 
             else if((getUnit <= 700) && (getUnit > 301)){
@@ -296,8 +296,8 @@ function billGenerate() {
                 console.log("Domestic TVL" , domesticTVL)
                 var setTotalAmount = document.getElementById('totalUnit').innerHTML = totalUnitCharges;
                 var setTotalAmount = document.getElementById('totalOther').innerHTML = withGST + domesticTVL + withbulkCharges;
-                var setTotalAmount = document.getElementById('totalBill').innerHTML = totalUnitCharges + withGST + domesticTVL + withbulkCharges;
-                // alert(totalUnitCharges + withGST + domesticTVL + withbulkCharges);
+                var setTotalAmount = document.getElementById('totalBill').innerHTML = (totalUnitCharges + withGST + domesticTVL + withbulkCharges).toFixed(2);
+                // alert((totalUnitCharges + withGST + domesticTVL + withbulkCharges).toFixed(2));
             }
 
             else{
@@ -310,8 +310,8 @@ function billGenerate() {
                 console.log("Domestic TVL" , domesticTVL)
                 var setTotalAmount = document.getElementById('totalUnit').innerHTML = totalUnitCharges;
                 var setTotalAmount = document.getElementById('totalOther').innerHTML = withGST + domesticTVL + withbulkCharges;
-                var setTotalAmount = document.getElementById('totalBill').innerHTML = totalUnitCharges + withGST + domesticTVL + withbulkCharges;
-                // alert(totalUnitCharges + withGST + domesticTVL + withbulkCharges);
+                var setTotalAmount = document.getElementById('totalBill').innerHTML = (totalUnitCharges + withGST + domesticTVL + withbulkCharges).toFixed(2);
+                // alert((totalUnitCharges + withGST + domesticTVL + withbulkCharges).toFixed(2));
             } 
         }
 
@@ -341,8 +341,8 @@ function billGenerate() {
                 console.log("Domestic TVL" , domesticTVL)
                 var setTotalAmount = document.getElementById('totalUnit').innerHTML = totalUnitCharges;
                 var setTotalAmount = document.getElementById('totalOther').innerHTML = withGST + domesticTVL + withagricultureCharges;
-                var setTotalAmount = document.getElementById('totalBill').innerHTML = totalUnitCharges + withGST + domesticTVL + withagricultureCharges;
-                // alert(totalUnitCharges + withGST + domesticTVL + withagricultureCharges);
+                var setTotalAmount = document.getElementById('totalBill').innerHTML = (totalUnitCharges + withGST + domesticTVL + withagricultureCharges).toFixed(2);
+                // alert((totalUnitCharges + withGST + domesticTVL + withagricultureCharges).toFixed(2));
             }
 
             else if((getUnit <= 300) && (getUnit > 201)){
@@ -355,8 +355,8 @@ function billGenerate() {
                 console.log("Domestic TVL" , domesticTVL)
                 var setTotalAmount = document.getElementById('totalUnit').innerHTML = totalUnitCharges;
                 var setTotalAmount = document.getElementById('totalOther').innerHTML = withGST + domesticTVL + withagricultureCharges;
-                var setTotalAmount = document.getElementById('totalBill').innerHTML = totalUnitCharges + withGST + domesticTVL + withagricultureCharges;
-                // alert(totalUnitCharges + withGST + domesticTVL + withagricultureCharges);
+                var setTotalAmount = document.getElementById('totalBill').innerHTML = (totalUnitCharges + withGST + domesticTVL + withagricultureCharges).toFixed(2);
+                // alert((totalUnitCharges + withGST + domesticTVL + withagricultureCharges).toFixed(2));
             }
 
             else if((getUnit <= 700) && (getUnit > 301)){
@@ -369,8 +369,8 @@ function billGenerate() {
                 console.log("Domestic TVL" , domesticTVL)
                 var setTotalAmount = document.getElementById('totalUnit').innerHTML = totalUnitCharges;
                 var setTotalAmount = document.getElementById('totalOther').innerHTML = withGST + domesticTVL + withagricultureCharges;
-                var setTotalAmount = document.getElementById('totalBill').innerHTML = totalUnitCharges + withGST + domesticTVL + withagricultureCharges;
-                // alert(totalUnitCharges + withGST + domesticTVL + withagricultureCharges);
+                var setTotalAmount = document.getElementById('totalBill').innerHTML = (totalUnitCharges + withGST + domesticTVL + withagricultureCharges).toFixed(2);
+                // alert((totalUnitCharges + withGST + domesticTVL + withagricultureCharges).toFixed(2));
             }
 
             else{
@@ -383,8 +383,8 @@ function billGenerate() {
                 console.log("Domestic TVL" , domesticTVL)
                 var setTotalAmount = document.getElementById('totalUnit').innerHTML = totalUnitCharges;
                 var setTotalAmount = document.getElementById('totalOther').innerHTML = withGST + domesticTVL + withagricultureCharges;
-                var setTotalAmount = document.getElementById('totalBill').innerHTML = totalUnitCharges + withGST + domesticTVL + withagricultureCharges;
-                // alert(totalUnitCharges + withGST + domesticTVL + withagricultureCharges);
+                var setTotalAmount = document.getElementById('totalBill').innerHTML = (totalUnitCharges + withGST + domesticTVL + withagricultureCharges).toFixed(2);
+                // alert((totalUnitCharges + withGST + domesticTVL + withagricultureCharges).toFixed(2));
             } 
         }
     }
