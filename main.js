@@ -105,11 +105,11 @@ function billGenerate() {
                 console.log("Total GST" , withGST)
                 withcommercialCharges = (totalUnitCharges / 100) * commercialCharges; 
                 console.log("Total Duty" , withcommercialCharges);
-                console.log("Domestic TVL" , domesticTVL)
+                console.log("Commercial TVL" , commercialIndustrialTVL)
                 var setTotalAmount = document.getElementById('totalUnit').innerHTML = totalUnitCharges;
-                var setTotalAmount = document.getElementById('totalOther').innerHTML = withGST + domesticTVL + withcommercialCharges;
-                var setTotalAmount = document.getElementById('totalBill').innerHTML = (totalUnitCharges + withGST + domesticTVL + withcommercialCharges).toFixed(2);
-                // alert(totalUnitCharges + withGST + domesticTVL + withcommercialCharges);
+                var setTotalAmount = document.getElementById('totalOther').innerHTML = withGST + commercialIndustrialTVL + withcommercialCharges;
+                var setTotalAmount = document.getElementById('totalBill').innerHTML = (totalUnitCharges + withGST + commercialIndustrialTVL + withcommercialCharges).toFixed(2);
+                // alert(totalUnitCharges + withGST + commercialIndustrialTVL + withcommercialCharges);
             }
 
             else if((getUnit <= 200) && (getUnit > 101)){
@@ -119,11 +119,11 @@ function billGenerate() {
                 console.log("Total GST" , withGST)
                 withcommercialCharges = (totalUnitCharges / 100) * commercialCharges; 
                 console.log("Total Duty" , withcommercialCharges);
-                console.log("Domestic TVL" , domesticTVL)
+                console.log("Commercial TVL" , commercialIndustrialTVL)
                 var setTotalAmount = document.getElementById('totalUnit').innerHTML = totalUnitCharges;
-                var setTotalAmount = document.getElementById('totalOther').innerHTML = withGST + domesticTVL + withcommercialCharges;
-                var setTotalAmount = document.getElementById('totalBill').innerHTML = (totalUnitCharges + withGST + domesticTVL + withcommercialCharges).toFixed(2);
-                // alert((totalUnitCharges + withGST + domesticTVL + withcommercialCharges).toFixed(2));
+                var setTotalAmount = document.getElementById('totalOther').innerHTML = withGST + commercialIndustrialTVL + withcommercialCharges;
+                var setTotalAmount = document.getElementById('totalBill').innerHTML = (totalUnitCharges + withGST + commercialIndustrialTVL + withcommercialCharges).toFixed(2);
+                // alert((totalUnitCharges + withGST + commercialIndustrialTVL + withcommercialCharges).toFixed(2));
             }
 
             else if((getUnit <= 300) && (getUnit > 201)){
@@ -133,11 +133,11 @@ function billGenerate() {
                 console.log("Total GST" , withGST)
                 withcommercialCharges = (totalUnitCharges / 100) * commercialCharges; 
                 console.log("Total Duty" , withcommercialCharges);
-                console.log("Domestic TVL" , domesticTVL)
+                console.log("Commercial TVL" , commercialIndustrialTVL)
                 var setTotalAmount = document.getElementById('totalUnit').innerHTML = totalUnitCharges;
-                var setTotalAmount = document.getElementById('totalOther').innerHTML = withGST + domesticTVL + withcommercialCharges;
-                var setTotalAmount = document.getElementById('totalBill').innerHTML = (totalUnitCharges + withGST + domesticTVL + withcommercialCharges).toFixed(2);
-                // alert((totalUnitCharges + withGST + domesticTVL + withcommercialCharges).toFixed(2));
+                var setTotalAmount = document.getElementById('totalOther').innerHTML = withGST + commercialIndustrialTVL + withcommercialCharges;
+                var setTotalAmount = document.getElementById('totalBill').innerHTML = (totalUnitCharges + withGST + commercialIndustrialTVL + withcommercialCharges).toFixed(2);
+                // alert((totalUnitCharges + withGST + commercialIndustrialTVL + withcommercialCharges).toFixed(2));
             }
 
             else if((getUnit <= 700) && (getUnit > 301)){
@@ -147,11 +147,11 @@ function billGenerate() {
                 console.log("Total GST" , withGST)
                 withcommercialCharges = (totalUnitCharges / 100) * commercialCharges; 
                 console.log("Total Duty" , withcommercialCharges);
-                console.log("Domestic TVL" , domesticTVL)
+                console.log("Commercial TVL" , commercialIndustrialTVL)
                 var setTotalAmount = document.getElementById('totalUnit').innerHTML = totalUnitCharges;
-                var setTotalAmount = document.getElementById('totalOther').innerHTML = withGST + domesticTVL + withcommercialCharges;
-                var setTotalAmount = document.getElementById('totalBill').innerHTML = (totalUnitCharges + withGST + domesticTVL + withcommercialCharges).toFixed(2);
-                // alert((totalUnitCharges + withGST + domesticTVL + withcommercialCharges).toFixed(2));
+                var setTotalAmount = document.getElementById('totalOther').innerHTML = withGST + commercialIndustrialTVL + withcommercialCharges;
+                var setTotalAmount = document.getElementById('totalBill').innerHTML = (totalUnitCharges + withGST + commercialIndustrialTVL + withcommercialCharges).toFixed(2);
+                // alert((totalUnitCharges + withGST + commercialIndustrialTVL + withcommercialCharges).toFixed(2));
             }
 
             else{
@@ -161,11 +161,11 @@ function billGenerate() {
                 console.log("Total GST" , withGST)
                 withcommercialCharges = (totalUnitCharges / 100) * commercialCharges; 
                 console.log("Total Duty" , withcommercialCharges);
-                console.log("Domestic TVL" , domesticTVL)
+                console.log("Commercial TVL" , commercialIndustrialTVL)
                 var setTotalAmount = document.getElementById('totalUnit').innerHTML = totalUnitCharges;
-                var setTotalAmount = document.getElementById('totalOther').innerHTML = withGST + domesticTVL + withcommercialCharges;
-                var setTotalAmount = document.getElementById('totalBill').innerHTML = (totalUnitCharges + withGST + domesticTVL + withcommercialCharges).toFixed(2);
-                // alert((totalUnitCharges + withGST + domesticTVL + withcommercialCharges).toFixed(2));
+                var setTotalAmount = document.getElementById('totalOther').innerHTML = withGST + commercialIndustrialTVL + withcommercialCharges;
+                var setTotalAmount = document.getElementById('totalBill').innerHTML = (totalUnitCharges + withGST + commercialIndustrialTVL + withcommercialCharges).toFixed(2);
+                // alert((totalUnitCharges + withGST + commercialIndustrialTVL + withcommercialCharges).toFixed(2));
             } 
         }
         
@@ -178,11 +178,11 @@ function billGenerate() {
                 console.log("Total GST" , withGST)
                 withindustrialCharges = (totalUnitCharges / 100) * industrialCharges; 
                 console.log("Total Duty" , withindustrialCharges);
-                console.log("Domestic TVL" , domesticTVL)
+                console.log("Industrial TVL" , commercialIndustrialTVL)
                 var setTotalAmount = document.getElementById('totalUnit').innerHTML = totalUnitCharges;
-                var setTotalAmount = document.getElementById('totalOther').innerHTML = withGST + domesticTVL + withindustrialCharges;
-                var setTotalAmount = document.getElementById('totalBill').innerHTML = (totalUnitCharges + withGST + domesticTVL + withindustrialCharges).toFixed(2);
-                // alert(totalUnitCharges + withGST + domesticTVL + withindustrialCharges);
+                var setTotalAmount = document.getElementById('totalOther').innerHTML = withGST + commercialIndustrialTVL + withindustrialCharges;
+                var setTotalAmount = document.getElementById('totalBill').innerHTML = (totalUnitCharges + withGST + commercialIndustrialTVL + withindustrialCharges).toFixed(2);
+                // alert(totalUnitCharges + withGST + commercialIndustrialTVL + withindustrialCharges);
             }
 
             else if((getUnit <= 200) && (getUnit > 101)){
@@ -192,11 +192,11 @@ function billGenerate() {
                 console.log("Total GST" , withGST)
                 withindustrialCharges = (totalUnitCharges / 100) * industrialCharges; 
                 console.log("Total Duty" , withindustrialCharges);
-                console.log("Domestic TVL" , domesticTVL)
+                console.log("Industrial TVL" , commercialIndustrialTVL)
                 var setTotalAmount = document.getElementById('totalUnit').innerHTML = totalUnitCharges;
-                var setTotalAmount = document.getElementById('totalOther').innerHTML = withGST + domesticTVL + withindustrialCharges;
-                var setTotalAmount = document.getElementById('totalBill').innerHTML = (totalUnitCharges + withGST + domesticTVL + withindustrialCharges).toFixed(2);
-                // alert((totalUnitCharges + withGST + domesticTVL + withindustrialCharges).toFixed(2));
+                var setTotalAmount = document.getElementById('totalOther').innerHTML = withGST + commercialIndustrialTVL + withindustrialCharges;
+                var setTotalAmount = document.getElementById('totalBill').innerHTML = (totalUnitCharges + withGST + commercialIndustrialTVL + withindustrialCharges).toFixed(2);
+                // alert((totalUnitCharges + withGST + commercialIndustrialTVL + withindustrialCharges).toFixed(2));
             }
 
             else if((getUnit <= 300) && (getUnit > 201)){
@@ -206,11 +206,11 @@ function billGenerate() {
                 console.log("Total GST" , withGST)
                 withindustrialCharges = (totalUnitCharges / 100) * industrialCharges; 
                 console.log("Total Duty" , withindustrialCharges);
-                console.log("Domestic TVL" , domesticTVL)
+                console.log("Industrial TVL" , commercialIndustrialTVL)
                 var setTotalAmount = document.getElementById('totalUnit').innerHTML = totalUnitCharges;
-                var setTotalAmount = document.getElementById('totalOther').innerHTML = withGST + domesticTVL + withindustrialCharges;
-                var setTotalAmount = document.getElementById('totalBill').innerHTML = (totalUnitCharges + withGST + domesticTVL + withindustrialCharges).toFixed(2);
-                // alert((totalUnitCharges + withGST + domesticTVL + withindustrialCharges).toFixed(2));
+                var setTotalAmount = document.getElementById('totalOther').innerHTML = withGST + commercialIndustrialTVL + withindustrialCharges;
+                var setTotalAmount = document.getElementById('totalBill').innerHTML = (totalUnitCharges + withGST + commercialIndustrialTVL + withindustrialCharges).toFixed(2);
+                // alert((totalUnitCharges + withGST + commercialIndustrialTVL + withindustrialCharges).toFixed(2));
             }
 
             else if((getUnit <= 700) && (getUnit > 301)){
@@ -220,11 +220,11 @@ function billGenerate() {
                 console.log("Total GST" , withGST)
                 withindustrialCharges = (totalUnitCharges / 100) * industrialCharges; 
                 console.log("Total Duty" , withindustrialCharges);
-                console.log("Domestic TVL" , domesticTVL)
+                console.log("Industrial TVL" , commercialIndustrialTVL)
                 var setTotalAmount = document.getElementById('totalUnit').innerHTML = totalUnitCharges;
-                var setTotalAmount = document.getElementById('totalOther').innerHTML = withGST + domesticTVL + withindustrialCharges;
-                var setTotalAmount = document.getElementById('totalBill').innerHTML = (totalUnitCharges + withGST + domesticTVL + withindustrialCharges).toFixed(2);
-                // alert((totalUnitCharges + withGST + domesticTVL + withindustrialCharges).toFixed(2));
+                var setTotalAmount = document.getElementById('totalOther').innerHTML = withGST + commercialIndustrialTVL + withindustrialCharges;
+                var setTotalAmount = document.getElementById('totalBill').innerHTML = (totalUnitCharges + withGST + commercialIndustrialTVL + withindustrialCharges).toFixed(2);
+                // alert((totalUnitCharges + withGST + commercialIndustrialTVL + withindustrialCharges).toFixed(2));
             }
 
             else{
@@ -234,11 +234,11 @@ function billGenerate() {
                 console.log("Total GST" , withGST)
                 withindustrialCharges = (totalUnitCharges / 100) * industrialCharges; 
                 console.log("Total Duty" , withindustrialCharges);
-                console.log("Domestic TVL" , domesticTVL)
+                console.log("Industrial TVL" , commercialIndustrialTVL)
                 var setTotalAmount = document.getElementById('totalUnit').innerHTML = totalUnitCharges;
-                var setTotalAmount = document.getElementById('totalOther').innerHTML = withGST + domesticTVL + withindustrialCharges;
-                var setTotalAmount = document.getElementById('totalBill').innerHTML = (totalUnitCharges + withGST + domesticTVL + withindustrialCharges).toFixed(2);
-                // alert((totalUnitCharges + withGST + domesticTVL + withindustrialCharges).toFixed(2));
+                var setTotalAmount = document.getElementById('totalOther').innerHTML = withGST + commercialIndustrialTVL + withindustrialCharges;
+                var setTotalAmount = document.getElementById('totalBill').innerHTML = (totalUnitCharges + withGST + commercialIndustrialTVL + withindustrialCharges).toFixed(2);
+                // alert((totalUnitCharges + withGST + commercialIndustrialTVL + withindustrialCharges).toFixed(2));
             } 
         }
 
@@ -251,10 +251,9 @@ function billGenerate() {
                 console.log("Total GST" , withGST)
                 withbulkCharges = (totalUnitCharges / 100) * bulkCharges; 
                 console.log("Total Duty" , withbulkCharges);
-                console.log("Domestic TVL" , domesticTVL)
                 var setTotalAmount = document.getElementById('totalUnit').innerHTML = totalUnitCharges;
-                var setTotalAmount = document.getElementById('totalOther').innerHTML = withGST + domesticTVL + withbulkCharges;
-                var setTotalAmount = document.getElementById('totalBill').innerHTML = (totalUnitCharges + withGST + domesticTVL + withbulkCharges).toFixed(2);
+                var setTotalAmount = document.getElementById('totalOther').innerHTML = withGST  + withbulkCharges;
+                var setTotalAmount = document.getElementById('totalBill').innerHTML = (totalUnitCharges + withGST  + withbulkCharges).toFixed(2);
                 // alert(totalUnitCharges + withGST + domesticTVL + withbulkCharges);
             }
 
@@ -265,11 +264,10 @@ function billGenerate() {
                 console.log("Total GST" , withGST)
                 withbulkCharges = (totalUnitCharges / 100) * bulkCharges; 
                 console.log("Total Duty" , withbulkCharges);
-                console.log("Domestic TVL" , domesticTVL)
                 var setTotalAmount = document.getElementById('totalUnit').innerHTML = totalUnitCharges;
-                var setTotalAmount = document.getElementById('totalOther').innerHTML = withGST + domesticTVL + withbulkCharges;
-                var setTotalAmount = document.getElementById('totalBill').innerHTML = (totalUnitCharges + withGST + domesticTVL + withbulkCharges).toFixed(2);
-                // alert((totalUnitCharges + withGST + domesticTVL + withbulkCharges).toFixed(2));
+                var setTotalAmount = document.getElementById('totalOther').innerHTML = withGST + withbulkCharges;
+                var setTotalAmount = document.getElementById('totalBill').innerHTML = (totalUnitCharges + withGST + withbulkCharges).toFixed(2);
+                // alert((totalUnitCharges + withGST + withbulkCharges).toFixed(2));
             }
 
             else if((getUnit <= 300) && (getUnit > 201)){
@@ -279,11 +277,10 @@ function billGenerate() {
                 console.log("Total GST" , withGST)
                 withbulkCharges = (totalUnitCharges / 100) * bulkCharges; 
                 console.log("Total Duty" , withbulkCharges);
-                console.log("Domestic TVL" , domesticTVL)
                 var setTotalAmount = document.getElementById('totalUnit').innerHTML = totalUnitCharges;
-                var setTotalAmount = document.getElementById('totalOther').innerHTML = withGST + domesticTVL + withbulkCharges;
-                var setTotalAmount = document.getElementById('totalBill').innerHTML = (totalUnitCharges + withGST + domesticTVL + withbulkCharges).toFixed(2);
-                // alert((totalUnitCharges + withGST + domesticTVL + withbulkCharges).toFixed(2));
+                var setTotalAmount = document.getElementById('totalOther').innerHTML = withGST + withbulkCharges;
+                var setTotalAmount = document.getElementById('totalBill').innerHTML = (totalUnitCharges + withGST + withbulkCharges).toFixed(2);
+                // alert((totalUnitCharges + withGST + withbulkCharges).toFixed(2));
             }
 
             else if((getUnit <= 700) && (getUnit > 301)){
@@ -293,11 +290,10 @@ function billGenerate() {
                 console.log("Total GST" , withGST)
                 withbulkCharges = (totalUnitCharges / 100) * bulkCharges; 
                 console.log("Total Duty" , withbulkCharges);
-                console.log("Domestic TVL" , domesticTVL)
                 var setTotalAmount = document.getElementById('totalUnit').innerHTML = totalUnitCharges;
-                var setTotalAmount = document.getElementById('totalOther').innerHTML = withGST + domesticTVL + withbulkCharges;
-                var setTotalAmount = document.getElementById('totalBill').innerHTML = (totalUnitCharges + withGST + domesticTVL + withbulkCharges).toFixed(2);
-                // alert((totalUnitCharges + withGST + domesticTVL + withbulkCharges).toFixed(2));
+                var setTotalAmount = document.getElementById('totalOther').innerHTML = withGST + withbulkCharges;
+                var setTotalAmount = document.getElementById('totalBill').innerHTML = (totalUnitCharges + withGST + withbulkCharges).toFixed(2);
+                // alert((totalUnitCharges + withGST + withbulkCharges).toFixed(2));
             }
 
             else{
@@ -307,11 +303,10 @@ function billGenerate() {
                 console.log("Total GST" , withGST)
                 withbulkCharges = (totalUnitCharges / 100) * bulkCharges; 
                 console.log("Total Duty" , withbulkCharges);
-                console.log("Domestic TVL" , domesticTVL)
                 var setTotalAmount = document.getElementById('totalUnit').innerHTML = totalUnitCharges;
-                var setTotalAmount = document.getElementById('totalOther').innerHTML = withGST + domesticTVL + withbulkCharges;
-                var setTotalAmount = document.getElementById('totalBill').innerHTML = (totalUnitCharges + withGST + domesticTVL + withbulkCharges).toFixed(2);
-                // alert((totalUnitCharges + withGST + domesticTVL + withbulkCharges).toFixed(2));
+                var setTotalAmount = document.getElementById('totalOther').innerHTML = withGST + withbulkCharges;
+                var setTotalAmount = document.getElementById('totalBill').innerHTML = (totalUnitCharges + withGST + withbulkCharges).toFixed(2);
+                // alert((totalUnitCharges + withGST + withbulkCharges).toFixed(2));
             } 
         }
 
@@ -324,11 +319,10 @@ function billGenerate() {
                 console.log("Total GST" , withGST)
                 withagricultureCharges = (totalUnitCharges / 100) * agricultureCharges; 
                 console.log("Total Duty" , withagricultureCharges);
-                console.log("Domestic TVL" , domesticTVL)
                 var setTotalAmount = document.getElementById('totalUnit').innerHTML = totalUnitCharges;
-                var setTotalAmount = document.getElementById('totalOther').innerHTML = withGST + domesticTVL + withagricultureCharges;
-                var setTotalAmount = document.getElementById('totalBill').innerHTML = (totalUnitCharges + withGST + domesticTVL + withagricultureCharges).toFixed(2);
-                // alert(totalUnitCharges + withGST + domesticTVL + withagricultureCharges);
+                var setTotalAmount = document.getElementById('totalOther').innerHTML = withGST + withagricultureCharges;
+                var setTotalAmount = document.getElementById('totalBill').innerHTML = (totalUnitCharges + withGST + withagricultureCharges).toFixed(2);
+                // alert(totalUnitCharges + withGST + withagricultureCharges);
             }
 
             else if((getUnit <= 200) && (getUnit > 101)){
@@ -338,11 +332,10 @@ function billGenerate() {
                 console.log("Total GST" , withGST)
                 withagricultureCharges = (totalUnitCharges / 100) * agricultureCharges; 
                 console.log("Total Duty" , withagricultureCharges);
-                console.log("Domestic TVL" , domesticTVL)
                 var setTotalAmount = document.getElementById('totalUnit').innerHTML = totalUnitCharges;
-                var setTotalAmount = document.getElementById('totalOther').innerHTML = withGST + domesticTVL + withagricultureCharges;
-                var setTotalAmount = document.getElementById('totalBill').innerHTML = (totalUnitCharges + withGST + domesticTVL + withagricultureCharges).toFixed(2);
-                // alert((totalUnitCharges + withGST + domesticTVL + withagricultureCharges).toFixed(2));
+                var setTotalAmount = document.getElementById('totalOther').innerHTML = withGST + withagricultureCharges;
+                var setTotalAmount = document.getElementById('totalBill').innerHTML = (totalUnitCharges + withGST + withagricultureCharges).toFixed(2);
+                // alert((totalUnitCharges + withGST + withagricultureCharges).toFixed(2));
             }
 
             else if((getUnit <= 300) && (getUnit > 201)){
@@ -352,11 +345,10 @@ function billGenerate() {
                 console.log("Total GST" , withGST)
                 withagricultureCharges = (totalUnitCharges / 100) * agricultureCharges; 
                 console.log("Total Duty" , withagricultureCharges);
-                console.log("Domestic TVL" , domesticTVL)
                 var setTotalAmount = document.getElementById('totalUnit').innerHTML = totalUnitCharges;
-                var setTotalAmount = document.getElementById('totalOther').innerHTML = withGST + domesticTVL + withagricultureCharges;
-                var setTotalAmount = document.getElementById('totalBill').innerHTML = (totalUnitCharges + withGST + domesticTVL + withagricultureCharges).toFixed(2);
-                // alert((totalUnitCharges + withGST + domesticTVL + withagricultureCharges).toFixed(2));
+                var setTotalAmount = document.getElementById('totalOther').innerHTML = withGST + withagricultureCharges;
+                var setTotalAmount = document.getElementById('totalBill').innerHTML = (totalUnitCharges + withGST + withagricultureCharges).toFixed(2);
+                // alert((totalUnitCharges + withGST + withagricultureCharges).toFixed(2));
             }
 
             else if((getUnit <= 700) && (getUnit > 301)){
@@ -366,11 +358,10 @@ function billGenerate() {
                 console.log("Total GST" , withGST)
                 withagricultureCharges = (totalUnitCharges / 100) * agricultureCharges; 
                 console.log("Total Duty" , withagricultureCharges);
-                console.log("Domestic TVL" , domesticTVL)
                 var setTotalAmount = document.getElementById('totalUnit').innerHTML = totalUnitCharges;
-                var setTotalAmount = document.getElementById('totalOther').innerHTML = withGST + domesticTVL + withagricultureCharges;
-                var setTotalAmount = document.getElementById('totalBill').innerHTML = (totalUnitCharges + withGST + domesticTVL + withagricultureCharges).toFixed(2);
-                // alert((totalUnitCharges + withGST + domesticTVL + withagricultureCharges).toFixed(2));
+                var setTotalAmount = document.getElementById('totalOther').innerHTML = withGST + withagricultureCharges;
+                var setTotalAmount = document.getElementById('totalBill').innerHTML = (totalUnitCharges + withGST + withagricultureCharges).toFixed(2);
+                // alert((totalUnitCharges + withGST + withagricultureCharges).toFixed(2));
             }
 
             else{
@@ -380,11 +371,10 @@ function billGenerate() {
                 console.log("Total GST" , withGST)
                 withagricultureCharges = (totalUnitCharges / 100) * agricultureCharges; 
                 console.log("Total Duty" , withagricultureCharges);
-                console.log("Domestic TVL" , domesticTVL)
                 var setTotalAmount = document.getElementById('totalUnit').innerHTML = totalUnitCharges;
-                var setTotalAmount = document.getElementById('totalOther').innerHTML = withGST + domesticTVL + withagricultureCharges;
-                var setTotalAmount = document.getElementById('totalBill').innerHTML = (totalUnitCharges + withGST + domesticTVL + withagricultureCharges).toFixed(2);
-                // alert((totalUnitCharges + withGST + domesticTVL + withagricultureCharges).toFixed(2));
+                var setTotalAmount = document.getElementById('totalOther').innerHTML = withGST + withagricultureCharges;
+                var setTotalAmount = document.getElementById('totalBill').innerHTML = (totalUnitCharges + withGST + withagricultureCharges).toFixed(2);
+                // alert((totalUnitCharges + withGST + withagricultureCharges).toFixed(2));
             } 
         }
     }
