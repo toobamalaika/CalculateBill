@@ -53,6 +53,8 @@ label{
     justify-content: space-between;
 }
 .halfWidth{
+    padding: 10px;
+    margin: 0 5px;
     /* width: 50%; */
 }
 .quarterWidth{
